@@ -20,9 +20,11 @@
 Перед запуском убедитесь, что у вас установлены все необходимые библиотеки:
 ```bash
 pip install kivy mysqlclient
+```
+## Настройка базы данных
+### Создайте базу данных и таблицы следующими командами:
 
-Настройка базы данных
-Создайте базу данных и таблицы следующими командами:
+```bash
 CREATE DATABASE IF NOT EXISTS general_history CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 USE general_history;
